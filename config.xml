@@ -90,6 +90,7 @@
       <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
       <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png"/>
     </platform>
+    <preference name="SplashScreen" value="screen"/>
     <preference name="SplashScreenDelay" value="3000"/>
     <!-- SPLASHSCREEN -->
 </widget>
