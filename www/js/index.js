@@ -119,3 +119,34 @@ $( document ).on( "pagecreate", "#utility",  function() {
     });
 });
 
+//carousel
+
+$(document).ready(function () {
+    var i = 0;
+    var imgURL = [];
+
+    imgURL.push('https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png');
+    imgURL.push('http://asset1.cbsistatic.com/cnwk.1d/i/tim/2013/02/20/35536085_620x433.jpg');
+    imgURL.push('https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png');
+
+
+
+    $("#home").swiperight(function () {
+        if (i < (imgURL.length - 1)) {
+            i++
+        } else {
+            i = 0;
+        }
+        var imgStr = "<img src=" + imgURL[i] + " style='width:100%'>";
+        $('#ImageDiv').html(imgStr);
+    });
+    $("#home").swipeleft(function () {
+        if (i > 0) {
+            i--
+        } else {
+            i = (imgURL.length - 1);
+        }
+        var imgStr = "<img src=" + imgURL[i] + " style='width:100%'>";
+        $('#ImageDiv').html(imgStr);
+    });
+});
