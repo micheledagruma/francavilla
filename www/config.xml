@@ -34,15 +34,15 @@
         <icon density="xhdpi" src="res/android/xhdpi.png"/>
         <icon density="xxhdpi" src="res/android/xxhdpi.png"/>
         <icon density="xxxhdpi" src="res/android/xxxhdpi.png"/>
-        
+
         <!-- SPLASHSCREEN -->
         <!-- you can use any density that exists in the Android project -->
-      <!--<splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png"/>
+      <splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png"/>
       <splash density="land-ldpi" src="res/screen/android/splash-land-ldpi.png"/>
       <splash density="land-mdpi" src="res/screen/android/splash-land-mdpi.png"/>
       <splash density="land-xhdpi" src="res/screen/android/splash-land-xhdpi.png"/>
       <splash density="land-xxhdpi" src="res/screen/android/splash-land-xxhdpi.png"/>
-      <splash density="land-xxxhdpi" src="res/screen/android/splash-land-xxxhdpi.png"/>-->
+      <splash density="land-xxxhdpi" src="res/screen/android/splash-land-xxxhdpi.png"/>
 
       <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png"/>
       <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png"/>
